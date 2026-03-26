@@ -22,8 +22,8 @@ Installation:
 
 Clone the repository:
 git clone https://github.com/Jazkuu/Library-Management-System
-Navigate into the project:
-cd Library-Management-System
+Navigate into the project: cd Library-Management-System
+
 Run the program:
 python main.py
 
