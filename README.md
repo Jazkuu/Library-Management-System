@@ -1,54 +1,96 @@
-Library Management System
+# Library Management System
 
-Description:
+## Description
 
-This project is a Library Management System built in Python using Object-Oriented Programming (OOP).
+This project is a **Library Management System** built in Python using **Object-Oriented Programming (OOP)**.
 
-It allows you to:
+It allows users to manage books and members, as well as issue and return books through a "simple" commandline interface.
 
-Manage books (add, update, remove, display)
-Manage members
-Issue and return books
-Handle errors properly
+---
 
-The project demonstrates key OOP concepts such as:
+## Features
 
-Classes and Objects
-Inheritance
-Polymorphism
-Encapsulation
+### Book Management
 
-Installation:
+* Add new books
+* Remove books
+* Update book details
+* Display all books
 
-Clone the repository:
+### Member Management
+
+* Add members
+* Remove members
+* Update member details
+* Display all members
+
+### Book Transactions
+
+* Issue books to members
+* Return books
+* Error handling
+
+---
+
+## OOP Concepts Used
+
+* **Classes And Objects**
+* **Encapsulation**
+* **Inheritance**
+* **Polymorphism** 
+
+---
+
+## Installation
+
+```bash
 git clone https://github.com/Jazkuu/Library-Management-System
-Navigate into the project: cd Library-Management-System
-
-Run the program:
+cd Library-Management-System
 python main.py
+```
 
-Project Structure:
+---
 
-book.py → Book class
-member.py → Member class
-library.py → Library logic
-main.py → Runs the program
-tests/ → Unit tests
-
-Features:
-
-Add, remove, update books
-Add, remove, update members
-Issue and return books
-Search functionality (optional)
-Error handling for invalid actions
-
-Testing:
+## Testing
 
 Run tests using:
 
-pytest
+```bash
+python -m pytest
+```
 
-Creator:
+---
 
-Nicholai Jensen
+## Project Structure
+
+```text
+library-management-system/
+│
+├── book.py        # Book class
+├── member.py      # Member class
+├── library.py     # Logic of the system
+├── main.py        # CLI interface
+├── tests/         # Unit tests
+└── README.md
+```
+
+---
+
+## Example Usage
+
+```text
+
+Library Management System:
+
+1. Add book
+2. Add member
+3. Issue book
+4. Return book
+0. Exit
+```
+
+---
+
+## Creator
+
+**Nicholai Jensen**
